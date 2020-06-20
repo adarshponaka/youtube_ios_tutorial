@@ -13,6 +13,9 @@
 		C792BEFB249D951500194C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792BEF9249D951500194C7E /* Main.storyboard */; };
 		C792BEFD249D951600194C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792BEFC249D951600194C7E /* Assets.xcassets */; };
 		C792BF00249D951600194C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792BEFE249D951600194C7E /* LaunchScreen.storyboard */; };
+		C792BF08249E99DB00194C7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792BF07249E99DB00194C7E /* Constants.swift */; };
+		C792BF0A249E9CCC00194C7E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792BF09249E9CCC00194C7E /* Video.swift */; };
+		C792BF0C249E9D0A00194C7E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792BF0B249E9D0A00194C7E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C792BEFC249D951600194C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C792BEFF249D951600194C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C792BF01249D951600194C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C792BF07249E99DB00194C7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C792BF09249E9CCC00194C7E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C792BF0B249E9D0A00194C7E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C792BEFC249D951600194C7E /* Assets.xcassets */,
 				C792BEFE249D951600194C7E /* LaunchScreen.storyboard */,
 				C792BF01249D951600194C7E /* Info.plist */,
+				C792BF07249E99DB00194C7E /* Constants.swift */,
+				C792BF09249E9CCC00194C7E /* Video.swift */,
+				C792BF0B249E9D0A00194C7E /* Model.swift */,
 			);
 			path = youtube_ios_tutorial;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				C792BEF8249D951500194C7E /* ViewController.swift in Sources */,
 				C792BEF4249D951500194C7E /* AppDelegate.swift in Sources */,
 				C792BEF6249D951500194C7E /* SceneDelegate.swift in Sources */,
+				C792BF0C249E9D0A00194C7E /* Model.swift in Sources */,
+				C792BF08249E99DB00194C7E /* Constants.swift in Sources */,
+				C792BF0A249E9CCC00194C7E /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
