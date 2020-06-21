@@ -23,14 +23,28 @@ class Model {
         let session = URLSession.shared
         
         //Get a data task from the URLSession object
-        let dataTask = session.dataTask(with: url!) { (data, response, error) in
+        let dataTask = session.dataTask(with: url!) { (data, response, error)
+            in
             
             //Check for erros
             if error != nil || data == nil{
                 return
             }
             
-            //Parsing the data into video objects
+            do{
+                
+                //Parsing the data into video objects
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+                
+            }catch{
+                
+                
+            }
             
         }
         
